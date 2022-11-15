@@ -592,6 +592,16 @@ b, strong {
   border: none !important;
   padding: 0;
 }
+.gitstat{
+  width: 40%;
+  margin: auto;
+  padding: 4rem;
+  border: none !important;
+  padding: 0;
+}
+
+
+
 
 .section__title {
   margin-top: -10%;
