@@ -157,6 +157,7 @@ b, strong {
   top: 0;
   right: 0;
   left: 0;
+  animation: TopTobottom 6s linear infinite 0s;
   animation: BottomTotop 6s linear infinite 0s;
 }
 .animated-item:nth-child(2n+2) {
@@ -202,9 +203,9 @@ b, strong {
   will-change: transform;
   transition: transform 200ms linear;
 }
-.navbar[class*="-unpinned"] {
+/* .navbar[class*="-unpinned"] {
   transform: translate(0, -150%);
-}
+} */
 .navbar[class*="-pinned"] {
   transform: translate(0, 0);
 }
@@ -213,6 +214,7 @@ b, strong {
   border-bottom: 1px solid #f0f0f0;
   padding-top: 0;
   padding-bottom: 0;
+  
 }
 
 .navbar-brand {
@@ -310,6 +312,8 @@ b, strong {
   font-weight: 300;
   font-style: normal;
 }
+
+
 .color-mode-icon.active:after {
   font-family: 'unicons';
   content: '\eb65';
